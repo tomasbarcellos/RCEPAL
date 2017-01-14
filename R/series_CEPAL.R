@@ -7,7 +7,7 @@
 #' series <- series_CEPAL()
 
 series_CEPAL <- function() {
-
+  if(!require(rvest)) stop("Precisa do pacote 'rvest' para que esta função funcione.")
   url <- "http://interwp.cepal.org/sisgen/ws/cepalstat/getThematicTree.asp?language=spanish"
   pagina <- read_xml(url)
 

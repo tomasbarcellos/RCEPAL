@@ -77,6 +77,11 @@ CEPAL_stat <- function(id_serie) {
     names(resultado)[length(resultado)] <- paste0(names(resultado)[i], "_desc")
   }
 
+  resultado$valor <- as.numeric(resultado$valor)
+
+  if ("Años_desc" %in% names(resultado))
+    resultado$Años_desc <- as.numeric(resultado$Años_desc)
+
   return(resultado)
 
 }
