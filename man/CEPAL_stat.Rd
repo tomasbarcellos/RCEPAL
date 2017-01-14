@@ -7,7 +7,7 @@
 CEPAL_stat(id_serie)
 }
 \arguments{
-\item{id_serie}{ID da série que será baixada. Para conhecer as séries disponíveis e seus IDs, use a função XXXX.}
+\item{id_serie}{ID da série que será baixada. Para conhecer as séries disponíveis e seus IDs, use a função series_CEPAL().}
 }
 \description{
 Esta função faz download das séries da CEPAL

@@ -1,7 +1,7 @@
 #' Uma API para os dados abertos da CEPAL
 #'
 #' Esta função faz download das séries da CEPAL
-#' @param id_serie ID da série que será baixada. Para conhecer as séries disponíveis e seus IDs, use a função XXXX.
+#' @param id_serie ID da série que será baixada. Para conhecer as séries disponíveis e seus IDs, use a função series_CEPAL().
 #' @keywords CEPAL dados
 #' @export
 #' @examples
