@@ -3,9 +3,9 @@ Type: Package
 Title: What the Package Does (Title Case)
 Version: 0.1.0
 Imports:
-    dplyr (>= 0.3.0.1)
-    rvest
-    tidyr
+    dplyr (>= 0.5),
+    rvest (>= 0.3),
+    tidyr (>= 0.6)
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
 Description: More about what it does (maybe more than one line)
