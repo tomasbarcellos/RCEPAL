@@ -2,7 +2,7 @@ Package: RCEPAL
 Type: Package
 Title: Download dos dados da CEPAL
 Version: 0.1.0
-Imports:
+Depends:
     dplyr (>= 0.5),
     rvest (>= 0.3),
     tidyr (>= 0.6)
