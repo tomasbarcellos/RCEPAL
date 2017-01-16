@@ -1,6 +1,6 @@
 # RCEPAL
 
-Este pacote contém funções para download dos dados disponíveis na API da [CEPALstat](http://estadisticas.cepal.org/cepalstat/WEB_CEPALSTAT/openDataAPI.asp?idioma=i).
+Este pacote contém funções para download dos dados disponíveis na [CEPALstat](http://estadisticas.cepal.org/cepalstat/WEB_CEPALSTAT/openDataAPI.asp?idioma=i).
 
 # Instalação
 
