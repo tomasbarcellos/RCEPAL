@@ -12,7 +12,7 @@ library('RCEPAL')
 # Exemplo
 
 ```
-# Retorna data.frame com séries disponíveis na
+# Retorna data.frame com séries disponíveis
 stat_disp <- series_CEPAL()
 
 # Retorna tabela com indicadores de termos de troca
