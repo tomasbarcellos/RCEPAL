@@ -1,16 +1,16 @@
 Package: RCEPAL
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Download dos dados da CEPAL
 Version: 0.1.0
 Imports:
     dplyr (>= 0.5),
     rvest (>= 0.3),
     tidyr (>= 0.6)
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
+Author: Tomás de Siervi Barcellos
+Maintainer: The package maintainer <tomas.barcellos@gmail.com>
 Description: More about what it does (maybe more than one line)
     Use four spaces when indenting paragraphs within the Description.
-License: What license is it under?
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 5.0.1.9000

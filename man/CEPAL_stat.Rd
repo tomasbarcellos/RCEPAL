@@ -4,10 +4,16 @@
 \alias{CEPAL_stat}
 \title{Uma API para os dados abertos da CEPAL}
 \usage{
-CEPAL_stat(id_serie)
+CEPAL_stat(id_serie, exportar = FALSE, arquivo = "", silencioso = FALSE)
 }
 \arguments{
 \item{id_serie}{ID da série que será baixada. Para conhecer as séries disponíveis e seus IDs, use a função series_CEPAL().}
+
+\item{exportar}{Os dados devem ser exportados? Neste caso o nome de um arquivo deve ser fornecido e o retorno será NULL. Padrão: FALSE}
+
+\item{arquivo}{O nome do arquivo que será criado caso exportar = TRUE. Padrão: ""}
+
+\item{silencioso}{O progresso deve ser informado? Padrão: FALSE}
 }
 \description{
 Esta função faz download das séries da CEPAL
