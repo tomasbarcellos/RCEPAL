@@ -23,7 +23,7 @@ CEPAL_stat <- function(id_serie, exportar = FALSE,
     cat("Realizando download dos dados: ")
   }
 
-  serie <- paste0("http://interwp.cepal.org/sisgen/ws/cepalstat/getDataWithoutMeta.asp?IdIndicator=",
+  serie <- paste0("https://estadisticas.cepal.org/sisgen/ws/cepalstat/getDataWithoutMeta.asp?IdIndicator=",
                   id_serie, "&language=spanish")
   pagina <- read_xml(serie)
 
@@ -51,7 +51,7 @@ CEPAL_stat <- function(id_serie, exportar = FALSE,
     cat("Realizando download do dicionário: ")
   }
 
-  url <- paste0("http://interwp.cepal.org/sisgen/ws/cepalstat/getDimensions.asp?idIndicator=",
+  url <- paste0("https://estadisticas.cepal.org/sisgen/ws/cepalstat/getDimensions.asp?idIndicator=",
                 id_serie,"&language=spanish")
 
   pagina_dic <- read_xml(url)
