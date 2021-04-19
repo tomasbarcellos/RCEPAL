@@ -8,7 +8,7 @@
 
 series_CEPAL <- function() {
   if(!require(rvest)) stop("Precisa do pacote 'rvest' para que esta função funcione.")
-  url <- "http://interwp.cepal.org/sisgen/ws/cepalstat/getThematicTree.asp?language=spanish"
+  url <- "https://estadisticas.cepal.org/sisgen/ws/cepalstat/getThematicTree.asp?language=spanish"
   pagina <- read_xml(url)
 
   lista <- pagina %>% xml_find_all("//item") %>% xml_attrs()

@@ -1,11 +1,12 @@
 Package: RCEPAL
 Type: Package
 Title: Download dos dados da CEPAL
-Version: 0.1.0
+Version: 0.1.2
 Depends:
     dplyr (>= 0.5),
     rvest (>= 0.3),
-    tidyr (>= 0.6)
+    tidyr (>= 0.6),
+    xml2
 Author: Tomás de Siervi Barcellos
 Maintainer: The package maintainer <tomas.barcellos@gmail.com>
 Description: More about what it does (maybe more than one line)
